@@ -1,0 +1,25 @@
+ChordShot for Mac — macOS 15.2 or newer
+
+1. Drag ChordShot into Applications, then open it there.
+2. Use Enable… to grant Accessibility and Screen Recording in System Settings.
+3. If macOS requests it, quit and reopen ChordShot from Applications.
+
+Mouse: hold left + right together and drag. Release to take a screenshot.
+Trackpad: hold Control + Option, then click and drag with one finger.
+Change the trackpad shortcut in Settings if you prefer Option alone.
+
+Video: press Space during selection, then release. After the countdown,
+the red REC control shows recording is active. Click Stop or press Command–Shift–X.
+Videos are silent. Screenshots copy to the clipboard and save as PNG by default.
+Captures save in ~/Pictures/ChordShot; videos use its Recordings subfolder.
+
+ChordShot lives in your menu bar. Use its menu to open Settings or Check for Updates.
+Keep one installed copy in Applications. Future updates use the same signed identity.
+macOS may still ask for approval after system policy changes or revoked access.
+
+This is an initial beta. Please report issues at:
+https://github.com/rcox-shome/chordshot-releases/issues
+
+For users of the earlier development builds: switching to the public release
+changes signing identity and may require one final permission approval.
+Quit the old app after saving any recording before replacing it.
