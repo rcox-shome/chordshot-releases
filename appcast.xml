@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>ChordShot updates</title>
+    <link>https://github.com/rcox-shome/chordshot-releases</link>
+    <item>
+      <title>ChordShot 1.3.0</title>
+      <pubDate>Wed, 23 Sep 2026 22:00:45 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.2</sparkle:minimumSystemVersion>
+      <description>ChordShot 1.3.0 — initial public beta
+
+Screenshots with a two-button mouse drag or a configurable trackpad shortcut.
+Press Space while selecting for silent MP4 recording, with a countdown, red recording indicator, and Stop control.
+PNG saving and clipboard output, an optional login item, and signed in-app updates.
+
+Requires macOS 15.2 or newer. Includes Apple silicon and Intel executables; Intel hardware testing is still pending.
+Initial beta: additional real-world mouse, trackpad, multi-display, recording, and first-install testing is needed.
+Earlier development builds may need one final permission approval when moving to this production signing identity.
+</description>
+      <enclosure url="https://github.com/rcox-shome/chordshot-releases/releases/download/v1.3.0/ChordShot-1.3.0-universal.zip" length="1543448" type="application/octet-stream" sparkle:edSignature="67ALBw3PydOtfaL88AfAwQuAjjR0zHQlXWse2vN8NiBFXHWR/GDtSul3zqoyS7TsNEn+0z2/ClAdMtA8G7pzAg=="></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: iO+liIn2igrswjAzuNBNOm47MqUFwPEC+MeWXonwgMQh3X1slYJPenJ1knwxUTU0JAov9zEm+TFBrEBmdYUXCQ==
+length: 1815
+-->
