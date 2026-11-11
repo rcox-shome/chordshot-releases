@@ -1,0 +1,25 @@
+name: Suggest an improvement
+description: Describe a capture workflow that ChordShot could make easier.
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task and where the current workflow gets in your way.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+      description: Explain the behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What do you do today?
+      description: A workaround or another tool you use is helpful context.
+    validations:
+      required: false

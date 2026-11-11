@@ -1,0 +1,56 @@
+name: Report a bug
+description: Something did not work as expected in the ChordShot beta.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying ChordShot. These reports are public: leave out private captures, credentials, and personal files.
+        Please search existing issues before opening a new report.
+  - type: input
+    id: app-version
+    attributes:
+      label: ChordShot version
+      placeholder: "Example: 1.3.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "Example: macOS 15.2"
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Mac and input device
+      description: Model/chip and mouse or trackpad model. Do not include a serial number.
+      placeholder: "Example: MacBook Air M2, built-in trackpad"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the gesture or shortcut and whether you were taking a screenshot or recording.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Expected and actual behavior
+      description: What should have happened, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: If relevant, include display count, permissions status, any error message, and whether this was a fresh install or an update.
+    validations:
+      required: false

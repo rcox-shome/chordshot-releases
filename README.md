@@ -1,32 +1,73 @@
-# ChordShot for Mac
+<p align="center">
+  <img src="assets/chordshot.png" width="96" height="96" alt="ChordShot app icon">
+</p>
 
-Select an area. Take a screenshot or record a silent video.
+<h1 align="center">ChordShot</h1>
 
-**[Download ChordShot 1.3.0 beta](https://github.com/rcox-shome/chordshot-releases/releases/tag/v1.3.0)**
+<p align="center"><strong>Drag an area. Capture the moment.</strong><br>
+Screenshots and silent screen recordings, one gesture away.</p>
 
-Requires **macOS 15.2 or newer**. The universal app includes Apple silicon and Intel executables; Intel hardware testing is pending. The app and installer are Developer ID signed and notarized by Apple.
+<p align="center">
+  <a href="https://github.com/rcox-shome/chordshot-releases/releases/tag/v1.3.0"><strong>Download the free Mac beta</strong></a>
+  · <a href="#get-started">Installation</a>
+  · <a href="#help-shape-chordshot">Feedback</a>
+  · <a href="PRIVACY.md">Privacy</a>
+</p>
 
-## Install
+---
 
-Download the `.dmg`, open it, and drag ChordShot into Applications. Open it there and use the two Enable… buttons to grant Accessibility and Screen Recording in System Settings. If macOS requests it, quit and reopen the same Applications copy. ChordShot stays in your menu bar when you close Settings.
+ChordShot is a native Mac menu bar utility for capturing a selected part of your screen. Hold both mouse buttons and drag, or use a trackpad shortcut. Release for a screenshot. Press **Space** while selecting to switch to a silent video.
 
-## Capture
+**Current beta: 1.3.0 · macOS 15.2 or later · No purchase or account required**
 
-- **Mouse:** hold left + right together, drag an area, and release.
-- **Trackpad:** hold Control + Option, then click-drag with one finger. Settings also offers Option alone.
-- **Video:** press Space while selecting, then release. A countdown starts, followed by a red REC timer. Click Stop or press Command–Shift–X to save a silent MP4.
-- **Cancel:** Escape cancels the selection or countdown.
+The universal app includes Apple silicon and Intel executables. Intel hardware testing is pending. The app and installer are Developer ID signed and notarized by Apple.
 
-Screenshots copy to the clipboard and save as PNG by default. Captures save to `~/Pictures/ChordShot`; videos go into its Recordings subfolder. Change the destination and output preferences in Settings. Video selection must stay within one display.
+## Capture without breaking your flow
 
-## Updates and privacy
+| Task | Gesture |
+| :--- | :--- |
+| **Screenshot with a mouse** | Hold left + right mouse buttons together, drag an area, then release. |
+| **Screenshot with a trackpad** | Hold **Control + Option**, then click-drag with one finger and release. |
+| **Record a silent video** | Press **Space** while selecting, then release. Recording starts after a countdown. |
+| **Stop recording** | Click **Stop** or press **Command–Shift–X**. |
+| **Cancel a selection or countdown** | Press **Escape**. |
 
-Use **Check for Updates…** from the menu bar, or enable automatic update checks in Settings. Updates are cryptographically signed and wait for active captures to finish before restarting. Keep one installed copy in Applications. Existing development-build users may need one final permission approval when moving to the public signing identity; macOS controls all privacy access.
+Screenshots copy to the clipboard and save as PNG by default. Videos save as silent MP4 files. The default folder is `~/Pictures/ChordShot`, with videos in its `Recordings` subfolder. Change the destination, screenshot outputs, or trackpad shortcut in Settings.
 
-Captures stay on your Mac. No microphone audio, system audio, analytics, or account is used. The updater contacts GitHub to check/download releases; it never uploads captures. [Privacy details](PRIVACY.md).
+## Get started
 
-## Beta feedback
+1. [Open the beta release](https://github.com/rcox-shome/chordshot-releases/releases/tag/v1.3.0) and download **ChordShot-1.3.0-universal.dmg**.
+2. Open the disk image and drag **ChordShot** into **Applications**.
+3. Launch that copy. Use the two **Enable…** buttons to grant **Accessibility** and **Screen Recording** in System Settings.
+4. If macOS requests it, quit and reopen ChordShot from Applications.
+5. Close Settings. ChordShot stays in your menu bar, ready for your first capture.
 
-This initial beta needs more real-world mouse, trackpad, multi-display, recording, and clean-install testing. Automated tests and signing checks do not replace hardware testing. [Report a problem](https://github.com/rcox-shome/chordshot-releases/issues), including macOS version, Mac model, input device, and what happened. Avoid including private screen content.
+Keep one installed copy in Applications. If you're moving from an earlier development build, finish any recording and quit that copy before replacing it; macOS may ask you to approve the public release's permissions.
 
-This repository contains downloads and update metadata. Application source is maintained separately in a private repository. No purchase or account is required for this beta download.
+## Local captures, optional update checks
+
+Captures stay on your Mac. ChordShot has no accounts or analytics and records neither microphone nor system audio.
+
+Use **Check for Updates…** from the menu bar, or choose automatic checks in Settings. The updater contacts GitHub to check for and download releases; it never uploads captures. Updates are cryptographically signed and wait for active captures to finish before restarting.
+
+Your clipboard managers, backups, and folder-sync settings can still affect saved content. [Read the privacy details](PRIVACY.md).
+
+## Help shape ChordShot
+
+This is an early beta. Mouse and trackpad behavior, multiple displays, recording, and clean installation need testing across more Macs.
+
+- [**Report a bug**](https://github.com/rcox-shome/chordshot-releases/issues/new?template=bug-report.yml) — share your app/macOS versions, input device, and steps to reproduce.
+- [**Share beta feedback**](https://github.com/rcox-shome/chordshot-releases/issues/new?template=beta-feedback.yml) — what you used it for, what felt awkward, and whether you'd keep using it.
+- [**Suggest an improvement**](https://github.com/rcox-shome/chordshot-releases/issues/new?template=feature-request.yml) — describe the task you're trying to make easier.
+
+Reports are public. Please leave out private screen content, credentials, and personal files.
+
+## Current boundaries
+
+- Video selection must stay within a single display.
+- Recordings are silent.
+- The two-button gesture needs a mouse with independent left and right buttons. Use the trackpad shortcut with a Magic Mouse.
+- Some protected content cannot be captured.
+- Automated tests and signing checks do not replace testing on physical hardware.
+
+<sub>This is ChordShot's public home for beta downloads, update metadata, and feedback. Application source remains private.</sub>

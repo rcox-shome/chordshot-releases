@@ -1,0 +1,40 @@
+name: Share beta feedback
+description: Tell me how ChordShot fits into your workflow.
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What makes ChordShot useful to you, and what gets in the way?
+        Feedback is public. Please leave out private captures and personal information.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What did you use ChordShot for?
+      description: A concrete task or workflow helps explain what matters.
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What worked well, and what felt awkward?
+      description: Installation, the capture gesture, recordings, saved files, or anything else.
+    validations:
+      required: true
+  - type: dropdown
+    id: keep-using
+    attributes:
+      label: Would you keep using it?
+      options:
+        - "Yes"
+        - "Maybe, with a few changes"
+        - "Not for my workflow"
+        - "Too early to tell"
+    validations:
+      required: false
+  - type: textarea
+    id: change
+    attributes:
+      label: What one change would make the biggest difference?
+    validations:
+      required: false
